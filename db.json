@@ -1,0 +1,25 @@
+{
+"Books": [
+  {
+    "id": 1,
+    "titulo": "Livro 1",
+    "autor": "pessoa",
+    "geneto": "Terror",
+    "preco": 40
+  },
+  {
+    "id": 12,
+    "titulo": "Livro 2",
+    "autor": "pessoa",
+    "geneto": "Investigação",
+    "preco": 50
+  },
+  {
+    "id": 3,
+    "titulo": "Livro 3",
+    "autor": "pessoa",
+    "geneto": "Suspense",
+    "preco": 40
+  }
+]
+}
