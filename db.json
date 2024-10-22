@@ -4,21 +4,21 @@
     "id": 1,
     "titulo": "Livro 1",
     "autor": "pessoa",
-    "geneto": "Terror",
+    "genero": "Terror",
     "preco": 40
   },
   {
-    "id": 12,
+    "id": 2,
     "titulo": "Livro 2",
     "autor": "pessoa",
-    "geneto": "Investigação",
+    "genero": "Investigação",
     "preco": 50
   },
   {
     "id": 3,
     "titulo": "Livro 3",
     "autor": "pessoa",
-    "geneto": "Suspense",
+    "genero": "Suspense",
     "preco": 40
   }
 ]
