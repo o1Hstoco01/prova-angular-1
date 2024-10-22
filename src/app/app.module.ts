@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { BooksComponent } from './books/books.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BooksFormComponent } from './books-form/books-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,15 @@ import { HttpClientModule } from '@angular/common/http';
     NavBarComponent,
     FooterComponent,
     HomeComponent,
-    BooksComponent
+    BooksComponent,
+    BooksFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,23 @@
+
+<div class="container">
+    <h3>Cadastrar Livro</h3>
+    <form [formGroup]="formGroupBooks">
+      <div class="mb-3">
+        <label for="name" class="form-label">Titulo</label>
+        <input formControlName="titulo" type="text " class="form-control" id="titulo" placeholder="Digite o Titulo">
+      </div>
+      <div class="mb-3">
+        <label for="price" class="form-label">Autor</label>
+        <input formControlName="autor" type="text " class="form-control" id="autor" placeholder="Digite o nome do autor">
+      </div>
+      <div class="mb-3">
+        <label for="category" class="form-label">Genero</label>
+        <input formControlName="genero" type="text " class="form-control" id="genero" placeholder="Digite o genero do livro">
+      </div>
+      <div class="mb-3">
+        <label for="category" class="form-label">Preço</label>
+        <input formControlName="preco" type="text " class="form-control" id="preco" placeholder="Digite o preço">
+      </div>
+      <button type="button" class="btn btn-primary" (click)="save()">Criar</button>
+    </form>
+  </div>

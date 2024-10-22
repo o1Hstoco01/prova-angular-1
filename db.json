@@ -1,25 +1,32 @@
 {
-"Books": [
-  {
-    "id": 1,
-    "titulo": "Livro 1",
-    "autor": "pessoa",
-    "genero": "Terror",
-    "preco": 40
-  },
-  {
-    "id": 2,
-    "titulo": "Livro 2",
-    "autor": "pessoa",
-    "genero": "Investigação",
-    "preco": 50
-  },
-  {
-    "id": 3,
-    "titulo": "Livro 3",
-    "autor": "pessoa",
-    "genero": "Suspense",
-    "preco": 40
-  }
-]
+  "Books": [
+    {
+      "id": 1,
+      "titulo": "Livro 1",
+      "autor": "pessoa",
+      "genero": "Terror",
+      "preco": 40
+    },
+    {
+      "id": 2,
+      "titulo": "Livro 2",
+      "autor": "pessoa",
+      "genero": "Investigação",
+      "preco": 50
+    },
+    {
+      "id": 3,
+      "titulo": "Livro 3",
+      "autor": "pessoa",
+      "genero": "Suspense",
+      "preco": 40
+    },
+    {
+      "id": 4,
+      "titulo": "Livro 4",
+      "autor": "Autor 4",
+      "genero": "Investigativo",
+      "preco": "40"
+    }
+  ]
 }

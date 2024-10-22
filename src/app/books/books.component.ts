@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Books } from '../book';
 import { BooksService } from '../books.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-books',
@@ -11,7 +12,7 @@ export class BooksComponent {
 
   books: Books[] = []
 
-  constructor(private service: BooksService){}
+  constructor(private service: BooksService, private router: Router){}
 
   ngOnInit(): void{
     this.loadBooks();
@@ -26,4 +27,8 @@ export class BooksComponent {
       next: ()=> this.loadBooks()
     })
   }
-}
+  create(){
+    this.router.navigate(['books-form'])
+  }
+
+  }
