@@ -3,5 +3,5 @@ export interface Books{
 	titulo: string,
 	autor: string,
 	genero: string,
-	preco: number
+	preco: boolean
 }

@@ -27,6 +27,13 @@
       "autor": "Autor 4",
       "genero": "Investigativo",
       "preco": "40"
+    },
+    {
+      "id": 5,
+      "titulo": "Livro 5",
+      "autor": "Pessoa 5",
+      "genero": "Terror",
+      "preco": "30,00"
     }
   ]
 }
