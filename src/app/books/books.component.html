@@ -7,6 +7,7 @@
           <th scope="col">Autor</th>
           <th scope="col">Genero</th>
           <th scope="col">Preço</th>
+          <th scope="col">Opções</th>
         </tr>
       </thead>
       <tbody>
@@ -16,6 +17,7 @@
             <td>{{book.autor}}</td>
             <td>{{book.genero}}</td>
             <td>{{book.preco}}</td>
+            <td><button class="btn btn-danger" (click)="delete(book)">Remover</button></td>
           </tr>
       </tbody>
     </table>

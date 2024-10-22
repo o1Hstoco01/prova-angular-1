@@ -21,4 +21,9 @@ export class BooksComponent {
       next: data => this.books = data
     })
   }
+  delete(books: Books){
+    this.service.delete(books).subscribe({
+      next: ()=> this.loadBooks()
+    })
+  }
 }

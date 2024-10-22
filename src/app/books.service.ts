@@ -13,4 +13,7 @@ export class BooksService {
   getBooks(): Observable<Books []>{
     return this.http.get<Books []>('http://localhost:3000/Books')
   }
+  delete(books: Books): Observable<void>{
+    return this.http.delete<void>('http://localhost:3000/Books/' + books.id)
+  }
 }
